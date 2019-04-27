@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {colas} from '../fakedb';
+import {colas} from '../fakedb.json';
 export class Dashboard extends Component {
   state = {
     colas
@@ -17,7 +17,7 @@ export class Dashboard extends Component {
               </tr>;
     })
   }
-  renderBotonEditar = (permiso)=>{
+  renderBotonEditar = (permiso:String)=>{
     switch (permiso) {
       case "Gestor":
         return <button className="btn btn-warning" disabled>Editar</button>
@@ -26,7 +26,7 @@ export class Dashboard extends Component {
     }
   }
 
-  renderBotonBorrar = (permiso)=>{
+  renderBotonBorrar = (permiso:String)=>{
     switch (permiso) {
       case "Administrador":
         return <button className="btn btn-danger">Borrar</button>
@@ -35,7 +35,7 @@ export class Dashboard extends Component {
     }
   }
 
-  renderBotonInvitar = (permiso)=>{
+  renderBotonInvitar = (permiso:String)=>{
     switch (permiso) {
       case "Gestor":
         return <button className="btn btn-primary" disabled>Invitar</button>
