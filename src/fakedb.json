@@ -1,0 +1,36 @@
+{
+    "colas":[
+        {
+            "nombre":"Odontologia",
+            "creador":"Valerie Luna",
+            "permiso":"Administrador",
+            "servicios":[
+                null
+            ]
+        },
+        {
+            "nombre":"Farmacia",
+            "creador":"Jon Doe",
+            "permiso":"Editor",
+            "servicios":[
+                null
+            ]
+        },
+        {
+            "nombre":"Banco",
+            "creador":"The Boss",
+            "permiso":"Gestor",
+            "servicios":[
+                null
+            ]
+        },
+        {
+            "nombre": "Odontologia Clinica",
+            "creador":"Valerie Luna",
+            "permiso":"Administrador",
+            "servicios":[
+                null
+            ]
+        }
+    ]
+}
